@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.asset-editor-wrapper {
+  background-color: gainsboro;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.asset {
+  background-color: dimgrey;
+  height: 100vh;
+  width: 100%;
+}
+
+.editor {
+  background-color: silver;
+  height: 100vh;
+  width: 45%;
+}
+
+.docs {
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100%;
+}
+
+.resizer {
+  border: 4px solid lightslategrey;
+  width: 4px;
+}
